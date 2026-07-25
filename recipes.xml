@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipeCollection>
+	<recipe id="rcp1">
+		<name>coleslaw salad</name>
+		<ingredients>
+			<ingredient>5 cups of grated green cabbage</ingredient>
+			<ingredient>3 large carrots</ingredient>
+			<ingredient>4 large spoons of mayonnaise </ingredient>
+			<ingredient>2 teaspoons of salt</ingredient>
+		</ingredients>
+		<instructions>
+			<instruction>Finely grate your cabbage and your carrots within one bowl</instruction>
+			<instruction>Add your 3 large spoons of mayonnaise to the bowl with grated vegetables</instruction>
+			<instruction>Mix, add additional spoon if too dry</instruction>
+			<instruction>Add your two teaspoons of salt,mix and refrigirate</instruction>
+		</instructions>
+		<cookingTime>30 minutes</cookingTime>
+		<servings>3 people</servings>
+	</recipe>
+	<recipe id="rcp2">
+		<name>pilchards with carrots</name>
+		<ingredients>
+			<ingredient>2 medium carrots</ingredient>
+			<ingredient>1 onion</ingredient>
+			<ingredient>1 tin of pilchards</ingredient>
+			<ingredient>1 tin of baked beans</ingredient>
+			<ingredient>cooking oil</ingredient>
+		</ingredients>
+		<instructions>
+			<instruction>Cut your onions and finely grate your carrots</instruction>
+			<instruction>Fry your onions and carrots, for 5 minutes</instruction>
+			<instruction>While frying, debone your pilchards</instruction>
+			<instruction>Add your deboned pilchards, to your frying pan or pot</instruction>
+			<instruction>Add a pich of salt and fry for a few minutes</instruction>
+			<instruction>Once done, pour your meal into a glass or plastic container</instruction>
+			<instruction>Wait for it to cool down and add your tin of baked beans</instruction>
+		</instructions>
+		<cookingTime>25 - 30 minutes</cookingTime>
+		<servings>5 people</servings>
+		<dietaryInfo>Contains fish and sodium</dietaryInfo>
+	</recipe>
+	<recipe id="rcp3">
+		<name>chicken mayo sandwich</name>
+		<ingredients>
+			<ingredient>white bread</ingredient>
+			<ingredient>cooked shredded chicken</ingredient>
+			<ingredient>mayonnaise</ingredient>
+			<ingredient>cucumber</ingredient>
+			<ingredient>seasoning</ingredient>
+		</ingredients>
+		<instructions>
+			<instruction>Cut or shred your cucumber and mix it with your mayo in a bowl</instruction>
+			<instruction>Add your seasoning to your bowl and mix</instruction>
+			<instruction>Add your chicken into the bowl and mix</instruction>
+			<instruction>Once done mixing, leave your filling for a few minutes for the flavours to come together</instruction>
+			<instruction>Apply your filling to your bread slice and close it with another slice making a sandwich</instruction>
+			<instruction>Grill your sandwich or toast it</instruction>
+		</instructions>
+		<cookingTime>20 minutes</cookingTime>
+		<servings> 1 person</servings>
+	</recipe>
+</recipeCollection>

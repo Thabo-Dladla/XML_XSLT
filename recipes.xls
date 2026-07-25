@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:output method="html" indent="yes"/>
+		<xsl:template match="/">
+			<html>
+				<body>
+					<h1>Total number of recipes: <xsl:value-of select="count(recipeCollection/recipe)"/></h1>
+					<ul>
+						<xsl:for-each select="recipeCollection/recipe">
+							<li><xsl:value-of select="name"/></li>
+						</xsl:for-each>
+					</ul>
+				</body>
+			</html>
+		</xsl:template>
+</xsl:stylesheet>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:output method="html" indent="yes"/>
+		<xsl:template match="/">
+			<html>
+				<body>
+					<xsl:for-each select="recipeCollection/recipe">
+						<xsl:choose>
+							<xsl:when test="cookingTime &lt; 25">
+								<p><xsl:value-of select="name"/> Is Quick to make</p>
+							</xsl:when>
+							<xsl:otherwise>
+								<p><xsl:value-of select="name"/> Takes some time</p>
+							</xsl:otherwise>
+						</xsl:choose>
+					</xsl:for-each>
+				</body>
+			</html>
+		</xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,20 @@
+<!ELEMENT recipeCollection (recipe+)>
+<!ELEMENT recipe (name, ingredients, instructions, cookingTime, servings, dietaryInfo?)>
+<!ATTLIST recipe id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT ingredients (ingredient+)>
+<!ELEMENT ingredient (#PCDATA)>
+<!ELEMENT instructions (instruction+)>
+<!ELEMENT instruction (#PCDATA)>
+<!ELEMENT cookingTime (#PCDATA)>
+<!ELEMENT servings (#PCDATA)>
+<!ELEMENT dietaryInfo (#PCDATA)>
+
+age=18
+if [ $age -ge 18 ]; then
+	echo "You are not a teenager"
+else
+	echo "You are a teenager"
+fi
+
+shebang tells the os to use bash to run the script
