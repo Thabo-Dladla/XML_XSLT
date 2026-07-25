@@ -2,7 +2,7 @@
 
 A repository containing XML code with schema definitions and transformation examples. This project demonstrates the use of XML documents alongside their corresponding schemas (XSD) and document type definitions (DTD).
 
-## 📁 Repository Contents
+## Repository Contents
 
 This repository includes:
 
@@ -12,26 +12,23 @@ This repository includes:
 - **recipes.xls** - XSLT stylesheet for transforming XML data
 - **practice.xsd** - Additional XSD schema for practice/testing purposes
 
-## 🎯 Purpose
+## Purpose
 
 This repository serves as a learning and reference resource for:
 
 - **XML Document Structure** - Well-formed XML documents with semantic meaning
-- **Schema Validation** - XSD schemas for defining and validating XML structure
-- **DTD Definitions** - Document type definitions for XML validation
-- **XSLT Transformations** - Stylesheets for transforming XML into other formats or vocabs
+- **Schema Validation** - XSD and DTD for validating XML structure
+- **XSLT Transformations** - Stylesheets for transforming XML into other formats or to other XML vocabularies
 
-## 📚 Files Overview
+## Files Overview
 
-| File | Type | Purpose |
-|------|------|---------|
-| `recipes.xml` | XML | Sample data document |
-| `recipes.xsd` | Schema | XSD schema validation rules |
-| `recipes.dtd` | Definition | DTD validation rules |
-| `recipes.xls` | Stylesheet | XSLT transformation rules |
-| `practice.xsd` | Schema | Practice schema for learning |
+- `recipes.xml`(XML) -  Sample data document
+- `recipes.xsd` - XSD schema validation rules 
+- `recipes.dtd` - DTD validation rules
+- `recipes.xls` - XSLT transformation templates 
+- `practice.xsd` - Practice schema for learning
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
    ```bash
@@ -45,7 +42,7 @@ This repository serves as a learning and reference resource for:
 
 4. **Transform XML** - Apply the XSLT stylesheet to transform XML data
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Validating Against Schema
 Use any XML validator to check if `recipes.xml` conforms to `recipes.xsd`
@@ -53,12 +50,12 @@ Use any XML validator to check if `recipes.xml` conforms to `recipes.xsd`
 ### Applying XSLT Transformations
 Use an XSLT processor to transform `recipes.xml` using `recipes.xls`
 
-## 🔗 Resources
+## Resources
 
 - [W3C XML Specification](https://www.w3.org/XML/)
 - [W3C XML Schema Documentation](https://www.w3.org/XML/Schema)
 - [XSLT Documentation](https://www.w3.org/Style/XSL/)
 
-## 📝 License
+## License
 
 This repository is available under the MIT License. Feel free to use, modify, and distribute as needed.
