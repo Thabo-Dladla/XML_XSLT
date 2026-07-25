@@ -19,7 +19,7 @@ This repository serves as a learning and reference resource for:
 - **XML Document Structure** - Well-formed XML documents with semantic meaning
 - **Schema Validation** - XSD schemas for defining and validating XML structure
 - **DTD Definitions** - Document type definitions for XML validation
-- **XSLT Transformations** - Stylesheets for transforming XML into other formats
+- **XSLT Transformations** - Stylesheets for transforming XML into other formats or vocabs
 
 ## 📚 Files Overview
 
@@ -62,11 +62,3 @@ Use an XSLT processor to transform `recipes.xml` using `recipes.xls`
 ## 📝 License
 
 This repository is available under the MIT License. Feel free to use, modify, and distribute as needed.
-
-## 👤 Author
-
-Created by [Thabo-Dladla](https://github.com/Thabo-Dladla)
-
----
-
-**Last Updated:** July 2026
